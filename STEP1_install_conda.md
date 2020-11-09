@@ -5,7 +5,13 @@ Anaconda3 2020.07 버전을 설치하기.
 
 ### 다운로드
 
-다음 [링크](https://repo.anaconda.com/archive/)에 접속해서 시스템 환경에 맞는 아나콘다를 다운로드합니다. 
+다음 [링크](https://repo.anaconda.com/archive/)에 접속해서 시스템 환경에 맞는 아나콘다를 다운로드하고 설치합니다.
+
+이미 시스템에 아나콘다가 설치되어있다면 다운로드 및 설치를 생략합니다.
+
+### [Command line interface](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-anaconda-prompt) 실행
+
+
 
 ### Open a [command line interface](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-anaconda-prompt)
 
