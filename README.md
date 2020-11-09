@@ -14,7 +14,7 @@
 
 ## LiDAR file I/O using laspy (60 min)
 
-  1.  Reading and writing las/laz file
+  1. Reading and writing las/laz file
   1. Converting laz to las format
   1. Converting las version
   1. Visualizing las file using Cloud Compare
