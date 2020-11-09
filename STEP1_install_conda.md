@@ -1,11 +1,11 @@
-# Python LiDAR data processing tutorial
+## Installing Conda/Anaconda and configuring Virtual Environments (50 min)
 
-This tutorial uses Anaconda3 2020.07 version to navigate and process Indiana Statewide LiDAR data (2017-2019).
-As a first part of the tutorial, we install Anaconda (Python and R) on our local machines for ease of programming.
+Anaconda3 2020.07 버전을 설치하기.
 
-## Session 1: Install Python and useful packages (20 min-1 hr)
 
-### Install [Anaconda3](https://docs.anaconda.com/anaconda/install/)
+### 다운로드
+
+다음 링크에 접속해서 시스템 환경에 맞는 아나콘다를 다운로드합니다. [Anaconda3](https://docs.anaconda.com/anaconda/install/)
 
 ### Open a [command line interface](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-anaconda-prompt)
 
