@@ -65,8 +65,8 @@ $ python
 ```python
 >>> import numpy
 >>> import matplotlib
->>> import gdal
 >>> import laspy
+>>> from osgeo import gdal
 ```
 
 Command line interface를 종료합니다.
