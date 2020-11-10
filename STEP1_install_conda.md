@@ -23,39 +23,45 @@ Anaconda3 2020.07 버전을 설치하기.
 $ conda info --envs
 ```
 
-Create a new virtual environment named lidar with Python 3.6 and jupyter notebook. We are going to use this environment to process the statewide lidar data set.
+아래의 커맨드로 라이다 처리 작업을 수행할 새로운 Anaconda 가상 환경을 생성합니다. 실습 진행의 편의를 위해서 Python=3.6버전으로 진행하겠습니다.
+
 ```bash
 $ conda create --name lidar python=3.6 jupyter
 ```
 
-Activate the **lidar** virtual environment.
+위에서 생성한 **lidar** 가상 환경을 활성화합니다.
+
+윈도우
 ```bash
 $ conda activate lidar
 ```
+맥 또는 리눅스
+```bash
+$ source ~/.bashrc
+$ conda activate lidar
+```
 
-Check the current environment again. Now **lidar** environment should be activated.
+새로운 가상환경이 로드되었는지 확인합니다. 아래 커맨드를 실행했을 때 lidar옆에 * 심볼이 표시되는지 확인합니다.
+
 ```bash
 $ conda info --envs
 ```
+lidar 가상 환경이 로드되었으면 아래 패키지를 설치합니다.
 
-Install Python packages for GIS and LiDAR data operations.
 ```bash
+$ conda install -c anaconda jupyter
 $ conda install -c conda-forge gdal
 $ conda install numpy matplotlib scikit-learn pandas
 $ conda install -c conda-forge laspy pyflann progressbar 
-$ conda install -c plotly plotly 
 $ conda install scikit-image
 ```
 
-Now all the installation is **tentatively** finished, and we can import above packages to our Python projects in the next step.
+이제 패키지 설치가 완료되었습니다. Python을 실행해서 패키지가 잘 설치되었는지 확인합니다.
 
-### Run Python to check above packages are installed
-From the Anaconda Prompt (windows) or terminal (mac, linux), run below commands to run Python in an interactive session.
 ```bash
 $ conda activate lidar
 $ python
 ```
-In the acteractive session, run below commands to load packages for GIS, LiDAR operations. For your information, gdal, ogr and laspy package is useful for processing raster, vector, and LiDAR data, respectively.
 
 ```python
 >>> import numpy
@@ -66,23 +72,12 @@ In the acteractive session, run below commands to load packages for GIS, LiDAR o
 >>> import laspy
 ```
 
-[Exit the interactive session](https://realpython.com/interacting-with-python/#exiting-the-interpreter).
+Command line interface를 종료합니다.
 
+Jupyter Notebook이 잘 실행되는지 확인합니다.
 
-### Install GDAL as command line tool
-
-Check you can use GDAL is command line tool by typing
-```bash
-$ gdalinfo --version
-```
-In case you don't see GDAL version and release date, install GDAL depending on your OS: [Windows](https://sandbox.idre.ucla.edu/sandbox/tutorials/installing-gdal-for-windows), [Mac](https://sandbox.idre.ucla.edu/sandbox/tutorials/installing-gdal-for-windows) or [Linux](https://tilemill-project.github.io/tilemill/docs/guides/gdal/). Be sure to run **gdalinfo --version** to verify the GDAL installation.
-
-### Run Jupyter notebook
-Jupyter Notebook is a useful tool that allows you to develop your code efficiently. In the Anaconda Prompt(windows) or terminal(mac, linux), run
 ```bash
 $ jupyter notebook
 ```
-If you see a Jupyter Notebook page pops up in your web browser, it means you successfully installed Jupyter. We will process LiDAR data using Jupyter Notebook in the later sessions.
-Click the **Quit button (not the X button)** in the upper right corner.
 
-In the session 2, we are going to learn how to load a statewide LiDAR data set and convert file format for faster processing.
+Jupyter Notebook이 잘 실행되었으면 다음 튜토리얼을 진행합니다.
