@@ -26,7 +26,7 @@ $ conda info --envs
 아래의 커맨드로 라이다 처리 작업을 수행할 새로운 Anaconda 가상 환경을 생성합니다. 실습 진행의 편의를 위해서 Python=3.6버전으로 진행하겠습니다.
 
 ```bash
-$ conda create --name lidar python=3.6 jupyter
+$ conda create --name lidar python=3.6
 ```
 
 위에서 생성한 **lidar** 가상 환경을 활성화합니다.
