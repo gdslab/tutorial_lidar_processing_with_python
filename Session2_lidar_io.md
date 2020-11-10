@@ -38,4 +38,8 @@ $ lascopy in2018_29651885_12.las in2018_29651885_12_las13.las 3 1.3
 
 ### LiDAR 파일 가시화하기
 
-[CloudCompare](https://www.danielgm.net/cc/) 를 다운로드, 설치하고 in2018_29651885_12_las13.las를 가시화합니다.
+[CloudCompare](https://www.danielgm.net/cc/) 를 다운로드, 설치하고 in2018_29651885_12_las13.las를 가시화합니다. Ubuntu 사용자의 경우 아래 명령을 통해 인스톨이 가능합니다.
+
+```bash
+$ snap install cloudcompare
+```
