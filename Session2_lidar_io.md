@@ -5,13 +5,16 @@ laspy 패키지를 이용한 LiDAR 입출력.
 
 ### 실습 자료 다운로드
 
-실습 자료가 위치한 폴더 경로는 되도록 영어, 대소문자만 포함하도록 합니다. (공백 X)
+git clone 명령을 이용하여 GitHub repository를 다운로드합니다. Command line interface에서 cd를 이용하여 저장할 장소로 이동한 뒤 아래 명령을 입력하여 다운로드합니다. 다운받을 폴더 경로상에 한글 또는 공백이 있으면 원활한 진행이 어려울 수 있으므로 필요한 경우 새로운 폴더를 생성합니다(mkdir).
 
+```bash
+$ git clone https://github.com/gdslab/tutorial_lidar_processing_with_python.git
+```
 ### lidar 가상 환경 활성화하기
 
-윈도우
-
 Anaconda Prompt를 실행하고 아래 커맨드를 입력합니다.
+
+윈도우
 ```bash
 $ conda activate lidar
 ```
