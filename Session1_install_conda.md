@@ -77,4 +77,4 @@ Jupyter Notebook이 잘 실행되는지 확인합니다.
 $ jupyter notebook
 ```
 
-Jupyter Notebook이 잘 실행되었으면 다음 튜토리얼로 이동합니다.
+Jupyter Notebook이 잘 실행되었으면 다음 과정으로 이동합니다.
