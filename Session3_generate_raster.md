@@ -14,4 +14,4 @@ $ jupyter notebook
 
 ### Jupyter Notebook을 이용하여 코드 작성
 
-화면을 보면서 코드를 작성합니다. 코드 작성이 원활하지 않을 경우 example_data 폴더 아래에 있는 .ipynb 파일을 참조하시면 됩니다.
+화면을 보면서 코드를 작성합니다. 코드 작성이 어려운 경우 example_data 폴더 안의 .ipynb 파일을 참조하셔도 좋습니다.
