@@ -27,12 +27,6 @@ $ source ~/.bashrc
 $ conda activate lidar
 ```
 
-### Anaconda Prompt 또는 terminal에서 실습 자료가 위치한 폴더로 이동
-
-```bash
-$ cd 폴더경로
-```
-
 ### .laz 파일(압축된 형태)을 .las 파일로 변환하고 LAS 버전을 1.3으로 변경
 
 .laz 파일을 .las 파일로 변경하면 다음 과정인 raster 생성 과정을 Jupyter를 이용하여 편리하게 진행할 수 있습니다. 맥 사용자의 경우 LAS 버전을 1.3으로 변경하여야 가시화가 가능합니다.
