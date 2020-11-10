@@ -3,7 +3,7 @@
 Anaconda3 2020.07 버전을 설치하기.
 
 
-### 다운로드
+### Anaconda 다운로드
 
 다음 [링크](https://repo.anaconda.com/archive/)에 접속해서 시스템 환경에 맞는 아나콘다를 다운로드하고 설치합니다.
 
@@ -11,15 +11,15 @@ Anaconda3 2020.07 버전을 설치하기.
 
 ### [Command line interface](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-anaconda-prompt) 실행
 
+윈도우: Anaconda Prompt(Anaconda 3)를 실행합니다.
 
+맥 또는 리눅스: terminal을 실행합니다.
 
-### Open a [command line interface](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-anaconda-prompt)
+### 아나콘다 가상환경(conda environment) 생성하기
 
-### Run below commands to create a new [virtual environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) and install packages
+기존의 가상 환경이 있는지 체크합니다. 아래 명령어를 실행했을 때 * 심볼이 base 환경 옆에 표시되는지 확인합니다..
 
-Check the current Python environment. You should see an asterisk symbol next to the **base** environment in the output.
-
-```wef
+```bash
 $ conda info --envs
 ```
 
