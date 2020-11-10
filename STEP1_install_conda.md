@@ -51,9 +51,8 @@ lidar 가상 환경이 로드되었으면 아래 패키지를 설치합니다.
 ```bash
 $ conda install -c anaconda jupyter
 $ conda install -c conda-forge gdal
-$ conda install numpy matplotlib scikit-learn pandas
-$ conda install -c conda-forge laspy pyflann progressbar 
-$ conda install scikit-image
+$ conda install numpy matplotlib
+$ conda install -c conda-forge laspy progressbar 
 ```
 
 이제 패키지 설치가 완료되었습니다. Python을 실행해서 패키지가 잘 설치되었는지 확인합니다.
@@ -66,9 +65,7 @@ $ python
 ```python
 >>> import numpy
 >>> import matplotlib
->>> import sklearn
 >>> import gdal
->>> import ogr
 >>> import laspy
 ```
 
