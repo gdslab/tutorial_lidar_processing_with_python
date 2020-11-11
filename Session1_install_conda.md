@@ -50,7 +50,7 @@ lidar 가상 환경이 로드되었으면 아래 패키지를 설치합니다.
 
 ```bash
 $ conda install -c anaconda jupyter
-$ conda install numpy matplotlib ipython
+$ conda install numpy matplotlib
 $ conda install -c conda-forge gdal laspy progressbar
 ```
 
