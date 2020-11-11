@@ -1,5 +1,8 @@
 # 파이썬을 이용한 라이다 자료 처리
 
+Written by Jinha Jung (jinha@purdue.eud), Sungchan Oh (oh231@purdue.edu).
+Please contact authors for any questions on this tutorial.
+
 ## LiDAR 101 (10 min)
 
   1. What is LiDAR?
