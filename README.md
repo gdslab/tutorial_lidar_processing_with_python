@@ -9,6 +9,8 @@ Please contact authors for any questions on this tutorial.
 
 ## Installing Conda/Anaconda and configuring Virtual Environments (50 min)
 
+자세한 내용은 [여기](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/Session1_install_conda.md)를 클릭해주세요.
+
   1. Anaconda installation on Windows
   1. Anaconda installation on Mac
   1. Anaconda installation on Linux
@@ -17,6 +19,8 @@ Please contact authors for any questions on this tutorial.
 
 ## LiDAR file I/O using laspy (60 min)
 
+자세한 내용은 [여기](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/Session2_lidar_io.md)를 클릭해 주세요.
+
   1. Reading and writing las/laz file
   1. Converting laz to las format
   1. Converting las version
@@ -24,8 +28,10 @@ Please contact authors for any questions on this tutorial.
   
 ## Generating raster data from LiDAR (60 min)
 
-  1. Generating Digital Surface Model (DSM) from a las file
-  1. Generating Normalized Digital Height Model (NDHM) from a las file
+자세한 내용은 [여기](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/Session3_generate_raster.md)를 클릭해 주세요.
+
+  1. Generating Digital Surface Model (DSM) from a las file: [쥬피터 노트북](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/example_data/create_dsm.ipynb)
+  1. Generating Normalized Digital Height Model (NDHM) from a las file: [쥬피터 노트북](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/example_data/create_ndhm.ipynb)
   1. Visualizing DSM and NDHM using QGIS
 
 ## 참석자 준비물
