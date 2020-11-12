@@ -68,7 +68,7 @@ $ python
 >>> from osgeo import gdal
 ```
 
-Command line interface를 종료합니다.
+
 
 Jupyter Notebook이 잘 실행되는지 확인합니다.
 
