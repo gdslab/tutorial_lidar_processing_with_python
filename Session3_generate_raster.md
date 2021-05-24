@@ -1,20 +1,20 @@
 ## Generating raster data from LiDAR (60 min)
 
-las 파일로부터 2D 자료인 DSM(digital surface model)과 NDHM (Normalized Digital Height Model)을 생성하기.
+This tutorial will cover how to genreate DSM (Digital Surface Model) and NDHM (Normalized Digital Height Model) from the LiDAR data. 
 
-### example_data 폴더로 이동
+First, you need to move into the *example_data* folder using the command line window. 
 
-Command line interface에서 cd 명령어를 이용하여 다운로드한 repository 안의 example_data 폴더로 이동합니다.
+### Run Jupyter Notebook
 
-### Jupyter Notebook 실행
+Run a jupyter notebook using below command. 
 
 ```bash
 $ jupyter notebook
 ```
 
-### Jupyter Notebook을 이용하여 코드 작성
+### Hand-on programming using jupyter notebook
 
-화면을 보면서 코드를 작성합니다. 코드 작성이 어려운 경우 example_data 폴더 안의 .ipynb 파일을 참조하셔도 좋습니다.
+We will write codes interactively, but you can also refer to below notebooks if needed.
 
-1. DSM 생성 [쥬피터 노트북](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/example_data/create_dsm.ipynb)
-1. NDHM 생성 [쥬피터 노트북](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/example_data/create_ndhm.ipynb)
+1. DSM generation [notebook](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/example_data/create_dsm.ipynb)
+1. NDHM generation [notebook](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/example_data/create_ndhm.ipynb)
