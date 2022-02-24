@@ -55,13 +55,14 @@ Once the new environment is activated, you need to install below packages in the
 $ conda install -c anaconda jupyter
 $ conda install numpy matplotlib
 $ conda install -c conda-forge gdal laspy progressbar
+$ conda install ipython
 ```
 
 After installing the above packages, you need to confirm the installation by running the below commands.
 
 ```bash
 $ conda activate lidar
-$ python
+$ ipython
 ```
 
 ```python
