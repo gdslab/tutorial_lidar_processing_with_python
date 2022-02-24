@@ -25,7 +25,7 @@ $ conda info --envs
 You need to create a new virtual environment for this tutorial using the below command. We will use Python=3.6 version in this tutorial. 
 
 ```bash
-$ conda create --name lidar python=3.6
+$ conda create --name lidar python=3.8
 ```
 
 After you create the new virtual environment, we need to activate the new environment using the below command. 
