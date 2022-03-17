@@ -37,7 +37,6 @@ Click [here](https://github.com/gdslab/tutorial_lidar_processing_with_python/blo
 ## Application of DSM, DTM, and NDHM (50 min) - Yuri Kim
 
   1. 3D Visualizing DSM and NDHM using QGIS
-  2. 
 
 ## Things to prepare before the workshop
 
