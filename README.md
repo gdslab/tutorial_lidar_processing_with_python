@@ -31,12 +31,12 @@ Click [here](https://github.com/gdslab/tutorial_lidar_processing_with_python/blo
 Click [here](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/Session3_generate_raster.md) for more detail.
 
   1. Generating Digital Surface Model (DSM) from a las file
-  1. Generating Normalized Digital Height Model (NDHM) from a las file
-  1. Visualizing DSM and NDHM using QGIS
+  1. Generating Normalized Digital Height Model (NDHM) from a las fil
 
 ## Application of DSM, DTM, and NDHM (50 min) - Yuri Kim
 
   1. 3D-visualizing DSM, DTM and NDHM using QGIS
+  2. Exploring and Visualizing LiDAR with contour, classification, etc.
 
 ## Things to prepare before the workshop
 
