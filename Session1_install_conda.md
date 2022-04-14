@@ -60,6 +60,12 @@ $ conda install progressbar2
 $ conda install -c conda-forge laspy
 ```
 
+NOTE: The above commands will install laspy 2.0 version, and we will have to install additional packages to enable laz support. 
+
+```bash
+$ pip install lazrs
+```
+
 After installing the above packages, you need to confirm the installation by running the below commands.
 
 ```bash
