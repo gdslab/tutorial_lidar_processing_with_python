@@ -56,7 +56,8 @@ $ conda install jupyter
 $ conda install numpy matplotlib
 $ conda install ipython
 $ conda install gdal
-$ conda install -c conda-forge laspy progressbar
+$ conda install progressbar2
+$ conda install -c conda-forge laspy
 ```
 
 After installing the above packages, you need to confirm the installation by running the below commands.
