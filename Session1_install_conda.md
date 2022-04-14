@@ -25,7 +25,7 @@ $ conda info --envs
 You need to create a new virtual environment for this tutorial using the below command. We will use Python=3.6 version in this tutorial. 
 
 ```bash
-$ conda create --name lidar python=3.6
+$ conda create --name lidar python=3.8
 ```
 
 After you create the new virtual environment, we need to activate the new environment using the below command. 
@@ -52,10 +52,11 @@ $ conda info --envs
 Once the new environment is activated, you need to install below packages in the new environment that are required for this tutorial.
 
 ```bash
-$ conda install -c anaconda jupyter
+$ conda install jupyter
 $ conda install numpy matplotlib
-$ conda install -c conda-forge gdal laspy progressbar
 $ conda install ipython
+$ conda install gdal
+$ conda install -c conda-forge laspy progressbar
 ```
 
 After installing the above packages, you need to confirm the installation by running the below commands.
