@@ -66,6 +66,12 @@ NOTE: The above commands will install laspy 2.0 version, and we will have to ins
 $ pip install lazrs
 ```
 
+For DTM generation, you will need to install *naturalneighbor* module as well.
+
+```bash
+$ pip install naturalneighbor
+```
+
 After installing the above packages, you need to confirm the installation by running the below commands.
 
 ```bash
