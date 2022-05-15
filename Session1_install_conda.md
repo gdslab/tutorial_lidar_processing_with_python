@@ -99,3 +99,11 @@ You will also need to check jupyter notebook installation by running the below c
 ```bash
 $ jupyter notebook
 ```
+
+## Installing Google Chrome on Windows Server 2019.
+
+Open PowerShell and paste below command.
+
+```
+$Path = $env:TEMP; $Installer = “chrome_installer.exe”; Invoke-WebRequest “http://dl.google.com/chrome/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args “/silent /install” -Verb RunAs -Wait; Remove-Item $Path\$Installer
+```
