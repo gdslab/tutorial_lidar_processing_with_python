@@ -74,12 +74,6 @@ If the above command does not work, then you can do below as an alternative.
 $ pip install laszip
 ```
 
-For DTM generation, you will need to install *naturalneighbor* module as well.
-
-```bash
-$ pip install naturalneighbor
-```
-
 After installing the above packages, you need to confirm the installation by running the below commands.
 
 ```bash
