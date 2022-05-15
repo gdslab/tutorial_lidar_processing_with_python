@@ -59,12 +59,19 @@ $ conda install gdal
 $ conda install progressbar2
 $ conda install -c conda-forge laspy
 $ conda install -c conda-forge lastools
+$ conda install pip
 ```
 
 NOTE: The above commands will install laspy 2.0 version, and we will have to install additional packages to enable laz support. 
 
 ```bash
 $ pip install lazrs
+```
+
+If the above command does not work, then you can do below as an alternative.
+
+```bash
+$ pip install laszip
 ```
 
 For DTM generation, you will need to install *naturalneighbor* module as well.
