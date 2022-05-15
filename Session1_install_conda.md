@@ -88,9 +88,16 @@ $ ipython
 >>> from osgeo import gdal
 ```
 
+Now we need to make the **lidar** virtual environment available from the jupyter notebook. Type below command in the command line.
+
+```
+ipython kernel install --user --name=lidar
+```
+
 You will also need to check jupyter notebook installation by running the below command.
 
 ```bash
+$ cd [YOUR GIT Clone Directory]
 $ jupyter notebook
 ```
 
