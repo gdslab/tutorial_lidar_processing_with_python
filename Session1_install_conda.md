@@ -58,6 +58,7 @@ $ conda install ipython
 $ conda install gdal
 $ conda install progressbar2
 $ conda install -c conda-forge laspy
+$ conda install -c conda-forge lastools
 ```
 
 NOTE: The above commands will install laspy 2.0 version, and we will have to install additional packages to enable laz support. 
