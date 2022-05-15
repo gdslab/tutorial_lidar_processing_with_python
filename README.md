@@ -3,6 +3,10 @@
 Written by Jinha Jung (jinha@purdue.edu), Sungchan Oh (oh231@purdue.edu), and Yuri Kim (yurikim@iu.edu).
 Please contact authors for any questions on this tutorial.
 
+## Pre-requisite
+
+You need Git installed on your machine. Please follow instruction from https://git-scm.com/book/en/v2/Getting-Started-Installing-Git to install Git on your machine. 
+
 ## LiDAR 101 (10 min) - Yuri Kim
 
   1. What is LiDAR?
