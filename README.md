@@ -18,7 +18,7 @@ $ git clone https://github.com/gdslab/tutorial_lidar_processing_with_python.git
 
   1. What is LiDAR?
 
-## Installing Conda/Anaconda and configuring Virtual Environments (30 min) - Jinha Jung
+## Installing Conda/Anaconda and configuring Virtual Environments (40 min) - Jinha Jung
 
 Click [here](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/Session1_install_conda.md) for more detail.
 
@@ -37,14 +37,14 @@ Click [here](https://github.com/gdslab/tutorial_lidar_processing_with_python/blo
   1. Converting las version
   1. Visualizing las file using Cloud Compare
   
-## Generating raster data from LiDAR (60 min) - Jinha Jung
+## Generating raster data from LiDAR (70 min) - Jinha Jung
 
 Click [here](https://github.com/gdslab/tutorial_lidar_processing_with_python/blob/main/Session3_generate_raster.md) for more detail.
 
   1. Generating Digital Surface Model (DSM) from a las file
   1. Generating Normalized Digital Height Model (NDHM) from a las fil
 
-## Application of DSM, DTM, and NDHM (50 min) - Yuri Kim
+## Application of DSM, DTM, and NDHM (30 min) - Yuri Kim
 
   1. 3D-visualizing DSM, DTM and NDHM using QGIS
   2. Exploring and Visualizing LiDAR with contour, classification, etc.
