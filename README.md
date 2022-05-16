@@ -11,7 +11,7 @@ Once the Git is installed on your machine, clone this repository on your local m
 
 ```
 $ cd [YOUR_TARGET_DIRECTORY]
-$ git clone git@github.com:gdslab/tutorial_lidar_processing_with_python.git
+$ git clone https://github.com/gdslab/tutorial_lidar_processing_with_python.git
 ```
 
 ## LiDAR 101 (10 min) - Yuri Kim
