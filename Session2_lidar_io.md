@@ -12,7 +12,7 @@ You will need to clone this tutorial github repository using the below command. 
 $ git clone https://github.com/gdslab/tutorial_lidar_processing_with_python.git
 ```
 
-You can also download any LiDAR tiles from https://lidar.jinha.org if you want.
+You can also download any LiDAR tiles from https://lidar.digitalforestry.org if you want.
 
 ### Activate the lidar virtual environment
 
